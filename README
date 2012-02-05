@@ -1,0 +1,4 @@
+LightRail
+
+- loosely coupled to the DOM
+- dependent on jQuery
