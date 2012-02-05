@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>LightRail MVC</title>
+</head>
+
+<body>
+	<h1>LightRail MVC</h1>
+	<p>LightRail is a light weight MVC for jQuery development.</p>
+	<div class="release" id="lightRail_01">
+		<h2>v.0.1</h2>
+		<h3>Requirements</h3>
+		<ul>
+			<li>Requires jQuery</li>
+		</ul>
+		<h3>API</h3>
+		<div class="api">
+			<pre>
+				// new instance of lightModel
+				var myLightModel = $.extend(lightModel);
+			
+				// set property
+				myLightModel.set({'prop':'val'});
+				
+				// get property
+				myLightModel.set({'prop':'val'});
+				
+				// on
+				myLightModel.on('change',function(){ console.log( this ); });
+
+				// trigger
+				myLightModel.trigger('change');
+			</pre>
+		</div>
+	</div>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="lightRail-dev.0.1.js"></script>
+</body>
+</html>
